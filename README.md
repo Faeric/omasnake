@@ -21,7 +21,7 @@ omarchy plugin add https://github.com/Faeric/omasnake.git --enable
 
 The plugin is added under
 `~/.config/omarchy/plugins/io.github.faeric.omasnake`. It never modifies files
-under `/usr/share/omarchy` and does not require `sudo` or `pkexec`.
+under `/usr/share/omarchy`. No additional system setup is required.
 
 ## Controls
 
