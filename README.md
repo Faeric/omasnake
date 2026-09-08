@@ -61,8 +61,8 @@ omarchy plugin validate .
 The Omasnake source code is available under the [MIT License](LICENSE).
 
 The bundled Omarchy mark is a third-party brand asset and is not covered by
-the MIT License. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before
-redistributing the package.
+the MIT License. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for its
+source, ownership, and usage context.
 
 Omasnake is an independent community project. It is not an official Omarchy
 plugin and is not endorsed by Omarchy or 37signals.
