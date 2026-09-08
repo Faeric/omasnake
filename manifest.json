@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.faeric.omasnake",
+  "name": "Omasnake",
+  "version": "1.2.0",
+  "author": "Faeric",
+  "license": "MIT",
+  "description": "A theme-aware monochrome Snake game for the Omarchy bar, inspired by classic mobile phones.",
+  "keywords": [
+    "snake",
+    "game",
+    "pixel-art",
+    "omarchy"
+  ],
+  "kinds": [
+    "bar-widget"
+  ],
+  "activation": "on-demand",
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Omasnake",
+    "description": "Play Snake in a compact window attached to the bar",
+    "category": "Fun",
+    "aliases": [
+      "snake",
+      "game"
+    ],
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
