@@ -2,6 +2,9 @@ import QtQuick
 import Quickshell
 import Quickshell.Io
 import qs.Commons
+// Qt 6.12 adds a QtQuick Color type that shadows the shell palette singleton.
+// Qualified references resolve to the palette on every Qt version.
+import qs.Commons as Commons
 import qs.Ui
 
 BarWidget {
@@ -15,9 +18,9 @@ BarWidget {
   readonly property color lcdMid: "#8bac0f"
   readonly property color lcdDark: "#306230"
   readonly property color lcdInk: "#0f380f"
-  readonly property color popupText: Color.popups.text
-  readonly property color popupBorder: Color.popups.border
-  readonly property color popupAccent: Color.accent
+  readonly property color popupText: Commons.Color.popups.text
+  readonly property color popupBorder: Commons.Color.popups.border
+  readonly property color popupAccent: Commons.Color.accent
   readonly property string popupFont: Style.font.family
 
   property bool popupOpen: false

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "io.github.faeric.omasnake",
   "name": "Omasnake",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "Faeric",
   "license": "MIT",
   "description": "A theme-aware monochrome Snake game for the Omarchy bar, inspired by classic mobile phones.",
